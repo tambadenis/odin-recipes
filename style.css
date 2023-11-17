@@ -14,6 +14,8 @@ ul {
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: darkgray;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
@@ -25,4 +27,32 @@ h1 {
 
 a:hover {
   color: blue;
+}
+
+/* Add some basic styling for the navigation bar */
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
